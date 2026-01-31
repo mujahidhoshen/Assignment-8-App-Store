@@ -9,22 +9,22 @@ const footerSocialLinks = [
   {
     name: "Facebook",
     icon: <FaFacebook />,
-    link: "https://www.facebook.com/mujahid.shikdar.2024",
+    link: "https://www.facebook.com/mujahid.shikdar.2024/",
   },
   {
     name: "Instagram",
     icon: <FaInstagramSquare />,
-    link: "https://www.instagram.com/mujaehidshikder?igsh=b3oyZGJpa3hnZDl2",
+    link: "https://www.instagram.com/mujaehidshikder?igsh=b3oyZGJpa3hnZDl2/",
   },
   {
     name: "LinkedIn",
     icon: <FaLinkedin />,
-    link: "https://www.linkedin.com/in/mujahid-hoshen-937066376",
+    link: "https://www.linkedin.com/in/mujahid-hoshen-937066376/",
   },
   {
     name: "YouTube",
     icon: <FaYoutube />,
-    link: "https://www.youtube.com",
+    link: "https://www.youtube.com/",
   },
 ];
 
