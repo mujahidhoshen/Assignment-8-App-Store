@@ -65,7 +65,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <a
-          href="https://github.com/MSabbirHossen/Personal_App-Store.git"
+          href="https://github.com/mujahidhoshen/Assignment-8-App-Store"
           target="_blank"
           rel="noopener noreferrer"
           className="btn bg-[#7d45e9] rounded-lg text-white hover:bg-[#5c2ad1] px-4 flex items-center gap-2"
