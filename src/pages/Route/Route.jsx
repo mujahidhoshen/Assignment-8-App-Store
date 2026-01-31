@@ -1,13 +1,12 @@
 import React from "react";
 import { createBrowserRouter } from "react-router";
+import Error404 from "../Error/Error404";
+
+import AppDetails from "../AppDetails/AppDetails";
+import Installation from "../Installation/Installation";
 import Root from "../../components/Root/Root";
 import Home from "../../components/Home/Home";
-import Error404 from "../Error/Error404";
 import AllApps from "../AllApps/AllApps";
-import AppDetails from "../AppDetails/AppDetails";
-import AppNotFound from "../Error/AppNotFound";
-import Installation from "../Installation/Installation";
-
 const appsLoader = async () => {
   try {
     const response = await fetch("/appsData.json");
@@ -24,11 +23,12 @@ const appsLoader = async () => {
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    Component : Root,
     errorElement: <Error404 />,
     children: [
       {
         index: true,
+        path: "/",
         loader: appsLoader,
         Component: Home,
       },
