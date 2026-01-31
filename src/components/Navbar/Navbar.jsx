@@ -46,7 +46,7 @@ const Navbar = () => {
         <Link to="/" className="flex items-center gap-2">
           <img src="/logo.png" alt="Logo" className="w-10" />
           <span className="btn btn-ghost text-2xl hidden md:block p-0">
-            Personal App Store
+            Mujahid's App Store
           </span>
         </Link>
       </div>

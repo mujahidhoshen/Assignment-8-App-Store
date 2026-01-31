@@ -63,9 +63,9 @@ const Footer = () => {
         <div className="text-center m-2">
           <p>
             Copyright © {new Date().getFullYear()} - All right reserved by
-            <Link to="https://www.linkedin.com/in/ms-hossen/" target="_blank">
+            <Link to="https://www.linkedin.com/in/mujahid-hoshen-937066376/" target="_blank">
               {" "}
-              <b> MS Hossen</b>
+              <b> Mujahid Hoshen</b>
             </Link>
             .
           </p>
